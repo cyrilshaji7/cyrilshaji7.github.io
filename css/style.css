@@ -226,7 +226,7 @@ hr.gradient {
 
 .contact {
     padding: 170px 0;
-    background: linear-gradient(to top, rgba(255, 255, 255, 0), white), url(../images/1686204570831.jpeg);
+    background: url(../images/chrome_CeoVZG0II4.png);
     background-position: top;
     background-size: cover;
     position: relative;
@@ -243,10 +243,11 @@ hr.gradient {
 }
 
 .contact-text {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 24px;
     font-weight: 400;
     line-height: 1.6;
-    color: #000000;
+    color: #FFFFFF;
 }
 
 .contact-icons {
@@ -255,7 +256,7 @@ hr.gradient {
 }
 
 .social-icons {
-    color: #000000;
+    color: #FFFFFF;
 }
 
 .social-icons:hover {
