@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,500&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+    <script src="script.js"></script>
+    <title>My Portfolio</title>
+</head>
+
+<body onload="typeWriter()"> 
+    
+
+    <main class=" main ">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top fade-in ">
+            <div class="container-fluid ">
+              <a class="navbar-brand al"  href="index.html">
+                <img src="/images/DALL·E 2023-10-28 23.03.25 - logo with c.png "  alt="" width="30" height="30">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                <div class="navbar-nav " style="font-size: larger; font-family: 'DM Sans', sans-serif; ">
+                  <a class="nav-link " href="#about" >About</a>
+                  <a class="nav-link" href="#leadership">Activities</a>
+                  <a class="nav-link" href="projects.html">Projects</a>
+                  <a class="nav-link ar" href="#contact">Contact</a>
+                </div>
+              </div>
+            </div>
+          </nav>
+          
+        <!-- home page -->
+
+        <section id="home-page" class="container-fluid section-2 " style="height: 100vh; padding: 0; margin: 0;">
+            <style>
+                #home-page {
+                    background-image: linear-gradient(rgba(255, 255, 255, 0), white), url("https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77701608075.jpg");
+                    background-size: cover;
+                    background-position: center;
+                }
+            </style>
+            <div class="row h-100 ">
+                <div class="col text-center my-auto display-3">
+                    <div class="demo"> 
+                        <p id="demo"></p>
+                        <!-- <p id="demo"> call me <span style="font-weight: bold; font-family: 'DM Sans', sans-serif;">cyril</span>. </p> -->
+                        
+                    </div>
+                     
+                    <div class="demo lead h6 m-4 ">
+                        2nd-year computer science student focusing on full stack development and computer vision projects.
+                        <br>
+                        <span style="font-weight: bold;">serious</span> passion for problem solving,
+                        currently residing in Waterloo.
+                    </div>
+                </div>
+            </div >
+        </section>
+        
+        <hr class="gradient">
+        
+
+        
+
+        <hr class="gradient">
+
+        <!-- about me -->
+
+        <section class="container-fluid projects " id="about" >
+            <div class="leader-text text-center mx-auto mb-5 " style="font-family: 'DM Sans', sans-serif;">
+                About Me
+            </div>
+
+            <div class="row projects-inner mx-auto mt-2" >
+                
+                <div class="col-lg-6 sec-6-left  pe-0 pe-lg-4 ">
+                    <div class="projects-heading">
+                        <span  style="font-weight: 400;">Cyril Shaji</span> -  
+                        Full Stack Developer 
+                    </div>
+                    <div class="projects-para">
+                        <p>I'm a second-year student in bachelor of computer science based in Waterloo. I thrive at the intersection of technology and personal growth. My curiosity extends to aviation, engineering, math, anatomy, and physics, providing me with a unique perspective on the world.</p>
+                            <p>I'm passionate about machine learning, Arduinos, and computer vision. I've tried to integrate most of these technologies in my personal projects.</p>
+                            <p>Here are some of the technologies I enjoy working with </p>
+                            <div class="lists-container">
+                                <ul class="list-left">
+                                    <li>Django</li>
+                                    <li>Python</li>
+                                    <li>Flutter</li>
+                                </ul>
+                                <ul class="list-right">
+                                    <li>C++</li>
+                                    <li>Arduino</li>
+                                    <li>Javascript</li>
+                                </ul>
+                            </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 sec-6-right mt-lg-0 mt-5 img-fluid mb-5 d-none d-lg-block" style="height: 30%;width: 30%;">
+                    <a href="#"><img src="./images/IMG_0329.jpeg" class="img-fluid proj-image img-fluid about-images about-img rounded img-thumbnail " alt=""></a>
+                    <button class="about-btn-right text-uppercase about-img mb-3" style="margin-top: 10%;" onclick="location.href='https://medium.com/@cyrilshaji7'" target="_blank">
+                        Read My Blogs!
+                    </button>
+                </div>
+                <button class="about-btn-right text-uppercase mb-3  d-md-none" style="margin-top: 10%;" onclick="location.href='https://medium.com/@cyrilshaji7'" target="_blank">
+                    Read My Blogs!
+                </button>
+            </div>
+            <hr class="gradient">
+
+            <div class="leader-text text-center mx-auto mb-5 mt-5" style="font-family: 'DM Sans', sans-serif;" id="leadership">
+                    Leadership & Volunteering
+            </div>
+            
+            <div class="row projects-inner mx-auto mt-2" >
+                
+                <div class="col-lg-6 sec-6-left  pe-0 pe-lg-4 ">
+                    <div class="projects-heading">
+                        <span  style="font-weight: 400;">ConHacks 2023</span> - Vice President
+                    </div>
+                    <div class="projects-para">
+                        Being the Vice President for a hackathon is a role of great responsibility, involving leadership and coordination of the event's activities. I had to handle many of the technical aspects of the hackathon from dealing with network issues to PR. It helped me get a first person prespective of how large tech events are organised.
+                    </div>
+                    
+                </div>
+                <div class="col-lg-6 sec-6-right mt-lg-0 mt-5 img-fluid " style="height: 30%;width: 30%;">
+                    <a href="#"><img src="./images/Screenshot 2023-10-27 161441.png" class="img-fluid proj-image" alt=""></a>
+                </div>
+            </div>
+
+            <div class="row projects-inner mx-auto mt-5">
+                <div class="col-lg-6 sec-6-left  pe-0 pe-lg-4">
+                    <div class="projects-heading">
+                        <span style="font-weight: 400;">LeetCode Club</span> - Vice President
+                    </div>
+                    <div class="projects-para">
+                        Being the Vice President of the LeetCode Club is an exciting and challenging role. It involves organizing coding competitions, workshops, and helping members improve their problem-solving skills. I play a vital role in fostering a strong coding community and promoting continuous learning among our members.
+                    </div>
+                    
+                </div>
+                <div class="col-lg-6 sec-6-right mt-lg-0 mt-5 " style="height: 30%;width: 30%;">
+                    <a href="#"><img src="./images/1686204570831.jpeg" class="img-fluid proj-image" alt=""></a>
+                </div>
+            </div>
+
+            <div class="row projects-inner mx-auto mt-5 mb-5">
+                <div class="col-lg-6 sec-6-left  pe-0 pe-lg-4">
+                    <div class="projects-heading">
+                        <span style="font-weight: 400;">Zephyrus 2021</span> - Lead Organizer
+                    </div>
+                    <div class="projects-para">
+                        At Zephyrus Hackathon, I assumed a dynamic role by leading marketing efforts to drive participant engagement and awareness. Additionally, I played a pivotal role in crafting challenging technical questions to inspire innovation. My involvement extended to ensuring seamless networking and setup of the competition, creating a well-rounded event experience.
+                    </div>
+                    
+                </div>
+                <div class="col-lg-6 sec-6-right mt-lg-0 mt-5 mb-5" style="height: 30%;width: 30%;">
+                    <a href="#"><img src="./images/chrome_BowDdapzee.png" class="img-fluid proj-image" alt=""></a>
+                </div>
+            </div>
+
+            <hr class="gradient">
+            
+            <!-- my projects -->
+            <div class="leader-text text-center mx-auto mb-5  mt-5" style=" font-family: 'DM Sans', sans-serif;" id="project">
+                My Projects 
+            </div>
+            <div class="row projects-inner mx-auto mt-5" >
+                
+                <div class="col-lg-6 sec-6-left  pe-0 pe-lg-4 ">
+                    <div class="projects-heading">
+                        <span style="font-weight: 400;">Aqua Pinion</span> - Autonomous Drowning Detection Band.
+                    </div>
+                    <div class="projects-para">
+                        Using the power of machine learning and the portability of an arduino, me and my team has succeeded in creating a watch which can use various parameteres from your body to determine with a precision of 98% whether you are drowning in real time using a machine learning algorithm which runs on an arduino nano.
+                        <br>
+                        <br>
+                        I recruited a support vector machine for drowning detection which relies on input data like body motion, pressure, and more sensors. By learning from a dataset containing drowning and non-drowning scenarios, the SVM model can accurately identify signs of distress in real-time, and could potentially save lives.
+                    </div>
+                    <div class="projects-button">
+                        <a class="proj-btn text-uppercase fw-bold" onclick="location.href='#'">View Project</a>
+                    </div>
+                </div>
+                <div class="col-lg-6 sec-6-right mt-lg-0 mt-5 img-fluid " style="height: 30%;width: 30%;">
+                    <a href="#"><img src="./images/chrome_BO49FLLwMv.png" class="img-fluid proj-image" alt=""></a>
+                </div>
+            </div>
+
+            <div class="row projects-inner mx-auto mt-5">
+                <div class="col-lg-6 sec-6-left  pe-0 pe-lg-4">
+                    <div class="projects-heading">
+                        <span style="font-weight: 400;">VisiSecure</span> - Face Recognizing Door Security Mobile Application.
+                    </div>
+                    <div class="projects-para">
+                        A smart camera equipped with advanced face recognition technology can instantly detect visitors at your door and send a notification. If the visitor is recognized as a familiar face, the camera will grant them access. If it's an unknown face, an alert will be sent to a mobile app developed using Flutter, ensuring a seamless and secure access control system.
+                        <br>
+                        <br>
+                        Combined Python's OpenCV for image processing and Flutter's UI capabilities to create a powerful cross-platform solution for building intelligent, real-time camera applications, which will make homes safer for all of us.
+                    </div>
+                    <div class="projects-button">
+                        <a class="proj-btn text-uppercase fw-bold" onclick="location.href='#'">View Project </a>
+                    </div>
+                </div>
+                <div class="col-lg-6 sec-6-right mt-lg-0 mt-5 " style="height: 30%;width: 30%;">
+                    <a href="#"><img src="./images/DALL·E 2023-10-28 01.01.39 - logo for Face-Recognizing Door Security 3d render without text .png" class="img-fluid proj-image" alt=""></a>
+                </div>
+            </div>
+
+            <div class="row projects-inner mx-auto mt-5">
+                <div class="col-lg-6 sec-6-left  pe-0 pe-lg-4">
+                    <div class="projects-heading">
+                        <span style="font-weight: 400;">GravityCanvas</span> - Simulation Of Celestial Bodies In 2D.
+                    </div>
+                    <div class="projects-para">
+                        GravityCanvas is a C++-powered N-Body 2D simulation web app that accurately models celestial body interactions and gravitational forces. Using efficient algorithms like Barnes-Hut, it tracks and predicts the positions and velocities of multiple objects, providing a robust simulation tool for astronomers and astrophysicists.
+                        <br>
+                        <br>
+                        With a user-friendly interface, this web app lets users define celestial body parameters like mass and initial conditions, while the C++ backend handles complex calculations, ensuring real-time or near-real-time simulations. GravityCanvas empowers users to explore celestial system dynamics, making it a valuable resource for studying everything from planetary orbits to galactic interactions, accessible online.
+                    </div>
+                    <div class="projects-button">
+                        <a class="proj-btn text-uppercase fw-bold" onclick="location.href='#'">View Project</a>
+                    </div>
+                </div>
+                <div class="col-lg-6 sec-6-right mt-lg-0 mt-5" style="height: 30%;width: 30%;">
+                    <a href="#"><img src="./images/DALL·E 2023-10-28 01.40.52 - profile for a 2d n body planet simulator.png" class="img-fluid proj-image" alt=""></a>
+                </div>
+            </div>
+
+            <div class="row mt-5">
+                <div class="projects-button-see-all text-center">
+                    <button class="proj-btn-see-all text-uppercase " onclick="location.href='projects.html'">See All
+                        Projects</button>
+                </div>
+            </div>
+        </section>
+
+        
+            
+        </section>
+
+
+        <!-- contact  -->
+        <section class="container-fluid contact">
+            <div class="row contact-inner mx-auto text-center">
+                <div class="col">
+                    <div class="contact-text lead">
+                        Stay in touch, follow me on LinkedIn and Instagram!
+                        <br>
+                        cyrilshaji7@gmail.com
+                    </div> 
+                    <div class="contact-icons">
+                        <a href="https://www.instagram.com/pizzasccer/" class="social-icons"><i class="bi bi-instagram icons" ></i></a>
+                        <a href="https://www.linkedin.com/in/cyril-shaji-387872260/" class="social-icons"><i class="bi bi-linkedin icons"></i></a>
+                        <a href="mailto:cyrilshaji7@gmail.com" class="social-icons"><i class="bi bi-envelope"></i></a>
+                        <a href="https://github.com/cyrilshaji7" class="social-icons"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- footer -->
+        <footer class="container-fluid footer" id="contact">
+            
+
+            <hr style="border-bottom: 1px solid #FFFFFF;">
+
+            <div class="row section-footer-inner">
+                <div class="col">
+                    <div class="footer-copyright text-center mt-2">
+                         made with love by cyril   <br> 💜 :)
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </main>
+</body>
+
+</html>
