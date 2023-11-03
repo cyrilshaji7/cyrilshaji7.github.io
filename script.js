@@ -1,6 +1,6 @@
 var i = 0;
 
-var txt = "call me cyril.";
+var txt = "better call cyril 😡😱😱😱";
 var speed = 100;
 
 function typeWriter() {
@@ -10,4 +10,5 @@ function typeWriter() {
     setTimeout(typeWriter, speed);
   }
 }
+
 
