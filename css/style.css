@@ -122,7 +122,15 @@ hr.gradient {
 }
 
 .projects-inner {
-    width: 90%;
+    width: 100%;
+    color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-inner {
+    width: 80%;
     color: #000000;
     display: flex;
     align-items: center;
@@ -374,6 +382,7 @@ hr.gradient {
 
 .servicesText:hover {
     border: 1px solid black;
+    transform: scale(1.02);
 }    
 
 
