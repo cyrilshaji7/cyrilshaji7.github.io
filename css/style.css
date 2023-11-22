@@ -17,7 +17,6 @@
 }
 
 
-
 .bg {
     background-image:  url("/images/bcs2.jpg");
     /* linear-gradient(rgba(255, 255, 255, 0), white), */
@@ -31,6 +30,7 @@
 .nav-style{
     margin-left: 15%;
 }
+
 
 @media (max-width: 767px) {
     .nav-style{
